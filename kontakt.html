@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--den gøre det at man kan justerer str.--> 
+  <title>Kontakt - Mental Balance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+
+
+<header>
+  <h1>Kontakt os</h1>
+
+  <!-- Burger Menuen -->
+  <input type="checkbox" id="menu-toggle">
+  <label class="hamburger" for="menu-toggle">&#9776;</label>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="om.html">Om Mentalsundhed</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+  <main>
+    <section class="contanct-intro">
+      <h2>Har du brug for hjælp eller spørgsmål?</h2>
+      <p>Kontant os gerne. Vi svarer inden for et par dage. Hvis du har akut brug for hjælp, ring til alarmcentralen eller din læge.</p>
+    </section>
+
+    <section class="contanct-form">
+      <h3>Skriv til os</h3>
+      <form aria-label="Kontaktformular" novalidate> 
+        <label for="name">Navn</label>
+        <input id="name" name="name" type="text" placeholder="Dit navn" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email"  required autocomplete="email" placeholder="Din email" required>
+
+        <label for="messange">Besked</label>
+        <textarea id="message" name="message" rows="6" placeholder="Skriv din besked her..." required></textarea>
+
+        <button type="submit">Send</button>
+          
+        </form>
+    </section>
+
+
+    <section>
+      <h3>Kontaktoplysninger</h3>
+      <p>Telefon: <a href="tel:54698620">54698620</a></p>
+      <p>Email: <a href="mailto:kontakt@mentalsundhed.dk">Kontakt@mentalsundhed.dk</a></p>
+      <p>Adresse: grønbej 25, 5000 odense</p>
+      <p>Akut hjælp: ring til 122 eller kontakt din læge.</p>
+      <p>flere ressourcer: <a href="https://stoplinien.dk/" target="_blank" rel="noopener">Stoplinjen.dk</a></p>
+    </section>
+  </main>
+
+
+
+
+
+  <footer>
+    <p>&copy; 2025 Mental Sundhed</p>
+  </footer>
+
+
+
+
+
+
+
+</body>
+</html>
