@@ -166,7 +166,7 @@ button:active, .btn:active {
 
 
 .card img { width: 100%; height: 160px; object-fit: cover; border-radius: 8px; }
-.card h4 { color: #016a70; margin: 0.6rem 0 0.3rem; }
+.card h3 { color: #016a70; margin: 0.6rem 0 0.3rem; }
 .card p { color: #333; font-size: 0.98rem; }
 
 
@@ -242,6 +242,9 @@ nav ul li a {
     display: flex;
   }
 }
+
+
+
 
 
 
